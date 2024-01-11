@@ -12,11 +12,11 @@ use function is_bool;
  */
 class OptionalBool extends AbstractOptional
 {
-	/**
-	 * @inheritdoc
-	 */
-	protected function supports(mixed $value): bool
-	{
-		return is_bool($value);
-	}
+    /**
+     * @inheritdoc
+     */
+    protected function supports(mixed $value): bool
+    {
+        return is_bool($value);
+    }
 }

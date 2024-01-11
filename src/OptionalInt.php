@@ -15,7 +15,7 @@ class OptionalInt extends AbstractOptional
     /**
      * @inheritdoc
      */
-	protected function supports(mixed $value): bool
+    protected function supports(mixed $value): bool
     {
         return is_int($value);
     }
