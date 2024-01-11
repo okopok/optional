@@ -2,10 +2,13 @@
 
 namespace Okopok\Optional;
 
-class Optional extends AbstractOptional
+/**
+ * @implements OptionalInterface<mixed>
+ */
+class Optional extends AbstractOptional implements OptionalInterface
 {
-    protected function supports(mixed $value): bool
-    {
-        return true;
-    }
+	protected function supports(mixed $value): bool
+	{
+		return true;
+	}
 }
