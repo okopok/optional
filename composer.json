@@ -1,6 +1,6 @@
 {
+	"title": "okopok/optional",
 	"name": "okopok/optional",
-	"title": "PhpOptional library",
 	"type": "library",
 	"description": "Java9 Optional implementation for PHP",
 	"keywords": [
