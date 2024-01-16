@@ -192,4 +192,6 @@ interface OptionalInterface
 	public function equals(mixed $obj): bool;
 
 	public function apply(callable $apply): void;
+
+	public function orElseNull(): mixed;
 }

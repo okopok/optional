@@ -261,4 +261,8 @@ abstract class AbstractOptional
 		return $this->value;
 	}
 
+	public function orElseNull(): mixed
+	{
+		return $this->value;
+	}
 }
